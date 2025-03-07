@@ -66,8 +66,9 @@
 
         </table>
 
-        {{ $siswa->links() }}
-        <div id="CurrentScroll"></div>
+        {{-- {{ $siswa->onEachSide(2)->links(data: ['scrollTo' => false]) }} --}} {{-- Scroll to top Off --}}
+        {{ $siswa->onEachSide(2)->links(data: ['scrollTo' => '.table-primary']) }} {{-- Scroll to Class --}}
+        {{-- <div id="CurrentScroll"></div> --}}
     </div>
 
 </div>

@@ -6,7 +6,7 @@
 
 @push('scripts')
     @livewireScripts
-    <script>
+    {{-- <script>
         Livewire.on('pageChanged', function() {
             console.log("ddd");
 
@@ -22,7 +22,7 @@
             });
 
         });
-    </script>
+    </script> --}}
 @endpush
 
 @section('content')
